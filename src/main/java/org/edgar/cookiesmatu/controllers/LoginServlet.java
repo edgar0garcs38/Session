@@ -1,15 +1,13 @@
-package controllers;
+package org.edgar.cookiesmatu.controllers;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
-import services.LoginService;
-import services.LoginServiceImplement;
-import services.LoginServiceSessionImplement;
+import org.edgar.cookiesmatu.services.LoginService;
+import org.edgar.cookiesmatu.services.LoginServiceSessionImplement;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Arrays;
 import java.util.Optional;
 
 @WebServlet({"/Login","/login.html"})

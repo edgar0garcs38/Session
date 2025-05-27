@@ -1,4 +1,4 @@
-package controllers;
+package org.edgar.cookiesmatu.controllers;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -6,12 +6,11 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-import jakarta.servlet.http.HttpSession;
-import models.Producto;
-import services.LoginService;
-import services.LoginServiceSessionImplement;
-import services.ProductoService;
-import services.ProductoServiceImplement;
+import org.edgar.cookiesmatu.models.Producto;
+import org.edgar.cookiesmatu.services.LoginService;
+import org.edgar.cookiesmatu.services.LoginServiceSessionImplement;
+import org.edgar.cookiesmatu.services.ProductoService;
+import org.edgar.cookiesmatu.services.ProductoServiceImplement;
 
 import java.io.IOException;
 import java.io.PrintWriter;

@@ -1,6 +1,6 @@
-package services;
+package org.edgar.cookiesmatu.services;
 import java.util.List;
-import models.Producto;
+import org.edgar.cookiesmatu.models.Producto;
 
 public interface ProductoService {
     List<Producto> listar();

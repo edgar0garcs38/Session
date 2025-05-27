@@ -1,4 +1,4 @@
-package models;
+package org.edgar.cookiesmatu.models;
 
 public class Producto {
     private Long id;
